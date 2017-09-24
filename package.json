@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "State history manager for ConboJS",
   "main": "lib/conbo-statehistory.js",
-  "directories": {
-    "example": "example",
-    "lib": "lib"
-  },
+  "files": [
+    "lib",
+    "typings"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +22,7 @@
     "es2015",
     "typescript"
   ],
+  "types": "./lib/conbo-statehistory.d.ts",
   "author": "Mesmotronic",
   "license": "MIT",
   "bugs": {
