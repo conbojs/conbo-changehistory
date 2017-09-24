@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>ConboJS StateHistory class example</title>
+	</head>
+	<body>
+		<state-history-example>
+			<p><label>Name: <input type="text" cb-bind="name" /></label></p>
+			<p><label><input type="checkbox" cb-bind="a" /> I agree to this</label></p>
+			<p><label><input type="checkbox" cb-bind="b" /> I agree to that</label></p>
+			<p><label><input type="checkbox" cb-bind="c" /> I agree to the other</label></p>
+			<p>
+				Which one?
+				<label><input name="xyz" value="x" type="radio" cb-bind="d" /> X</label>&nbsp;
+				<label><input name="xyz" value="y" type="radio" cb-bind="d" /> Y</label>&nbsp;
+				<label><input name="xyz" value="z" type="radio" cb-bind="d" /> Z</label>
+			</p>
+			<p>&nbsp;</p>
+			<p>
+				<button cb-onclick="history.back" cb-disabled="history.beforeFirst">&lt; Back</button>
+				<button cb-onclick="history.forward" cb-disabled="history.atLast">Forward &gt;</button>
+			</p>
+		</state-history-example>
+		<script src="../node_modules/conbo/lib/conbo.js"></script>
+		<script src="../lib/conbo-statehistory.js"></script>
+		<script src="example.js"></script>
+	</body>
+</html>

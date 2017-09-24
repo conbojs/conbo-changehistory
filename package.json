@@ -1,0 +1,34 @@
+{
+  "name": "conbo-statehistory",
+  "version": "1.0.0",
+  "description": "State history manager for ConboJS",
+  "main": "lib/conbo-statehistory.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neilrackett/conbo-statehistory.git"
+  },
+  "keywords": [
+    "conbo",
+    "state",
+    "history",
+    "es6",
+    "es2015",
+    "typescript"
+  ],
+  "author": "Mesmotronic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neilrackett/conbo-statehistory/issues"
+  },
+  "homepage": "https://github.com/mesmotronic/conbo-statehistory#readme",
+  "dependencies": {
+    "conbo": "^4.1.9"
+  }
+}
