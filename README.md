@@ -11,6 +11,8 @@ The `ChangeHistory` object is modelled on the built-in browser `History` class, 
 * `beforeFirst` indicates whether you are at a point in history before any changes were made
 * `atLast` indicates that you are at the end of history
 
+## Getting started
+
 Initialising `ChangeHistory` for an object couldn't be easier:
 
 ```javascript
