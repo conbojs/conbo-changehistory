@@ -2,7 +2,7 @@ conbo('example', function()
 {
 	var ns = this;
 
-	class StateHistoryExample extends conbo.Application
+	class ChangeHistoryExample extends conbo.Application
 	{
 		declarations()
 		{
@@ -14,10 +14,10 @@ conbo('example', function()
 			this.c = true;
 			this.d = "x";
 
-			this.history = new StateHistory(this);
+			this.history = new ChangeHistory(this);
 		}
 	}
 	
-	ns.import({StateHistoryExample});
+	ns.import({ChangeHistoryExample});
 
 });
