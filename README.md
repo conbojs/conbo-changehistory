@@ -2,6 +2,8 @@
 
 The `ChangeHistory` class is a simple object state history manager for [ConboJS](https://conbo.mesmotronic.com/) that enables you to navigate back and forward through the history of every property change made to any object that extends the `EventDispatcher` class, including `Hash`, `Application` and `View`, effectively making it possible to return to any of an object's past states.
 
+## API
+
 The `ChangeHistory` object is modelled on the built-in browser `History` class, offering the following properties and methods:
 
 * `back()` moves back 1 step into history
