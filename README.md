@@ -14,5 +14,5 @@ The `ChangeHistory` object is modelled on the built-in browser `History` class, 
 Initialising `ChangeHistory` for an object couldn't be easier:
 
 ```javascript
-var histrory = new ChangeHistory(obj);
+var history = new ChangeHistory(obj);
 ```
