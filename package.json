@@ -1,7 +1,7 @@
 {
   "name": "conbo-changehistory",
   "version": "1.0.0",
-  "description": "Object state history manager for ConboJS",
+  "description": "Object change history state manager for ConboJS",
   "main": "lib/conbo-changehistory.js",
   "files": [
     "lib",
@@ -16,6 +16,7 @@
   },
   "keywords": [
     "conbo",
+    "change",
     "state",
     "history",
     "es6",
