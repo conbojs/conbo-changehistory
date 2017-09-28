@@ -6,7 +6,7 @@ The `ChangeHistory` class can be imported as an AMD, CommonJS or global module.
 
 ## API
 
-The `ChangeHistory` object is modelled on the built-in browser `History` class, offering the following properties and methods:
+The `ChangeHistory` class is modelled on the built-in browser `History` class, offering the following properties and methods:
 
 * `back()` moves back 1 step into history
 * `forward()` moved forward 1 step in hisyory
