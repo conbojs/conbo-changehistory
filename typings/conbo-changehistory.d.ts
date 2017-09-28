@@ -1,6 +1,6 @@
 import * as conbo from 'conbo';
 
-export default class StateHistory extends conbo.EventDispatcher
+export default class ChangeHistory extends conbo.EventDispatcher
 {
 	/**
 	 * @private
@@ -30,18 +30,18 @@ export default class StateHistory extends conbo.EventDispatcher
 	/**
 	 * Go back 1 step into history
 	 */
-	back():StateHistory;
+	back():ChangeHistory;
 
 	/**
 	 * Move forward 1 step in history
 	 */
-	forward():StateHistory;
+	forward():ChangeHistory;
 
 	/**
 	 * Move an arbitrary number of steps forward or backward in history
 	 * @param		{number} n - The number of steps to move back or forward in history
 	 */
-	go(n:number):StateHistory;
+	go(n:number):ChangeHistory;
 
 	/**
 	 * Encodes values as they're added to history (can be overriden)
