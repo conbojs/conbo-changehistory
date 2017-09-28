@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neilrackett/conbo-changehistory.git"
+    "url": "git+https://github.com/mesmotronic/conbo-changehistory.git"
   },
   "keywords": [
     "conbo",
@@ -27,7 +27,7 @@
   "author": "Mesmotronic",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/neilrackett/conbo-changehistory/issues"
+    "url": "https://github.com/mesmotronic/conbo-changehistory/issues"
   },
   "homepage": "https://github.com/mesmotronic/conbo-changehistory#readme",
   "dependencies": {
